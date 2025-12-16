@@ -17,7 +17,7 @@ with st.form("form"):
     with col3:
         gender = st.radio("Género", options=["M", "H"], horizontal=True)
     with col4:
-        mode = st.selectbox("Modo", options=["Normal", "Veneco", "Worst-case"])
+        mode = st.selectbox("Modo", options=["Normal", "Veneco", "cágate la vida"])
 
     k = st.slider("Cantidad de resultados", min_value=1, max_value=5, value=3, step=1)
     seed = st.number_input("Semilla (para repetir resultados)", min_value=0, max_value=10_000_000, value=42, step=1)

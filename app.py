@@ -3,8 +3,8 @@ from generator import generate_names
 
 st.set_page_config(page_title="Generador de nombres", page_icon="🧩", layout="centered")
 
-st.title("Generador de nombres estilo venezolano")
-st.caption("Crea nombres combinando mamá + papá, con tres niveles de estilo.")
+st.title("Generador de nombres venecos")
+st.caption("Crea nombres combinando mamá + papá, con tres niveles de estilo, para arruinar facilmente la vida de tus hijos.")
 
 with st.form("form"):
     col1, col2 = st.columns(2)

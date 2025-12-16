@@ -9,9 +9,9 @@ st.caption("Crea nombres combinando mamá + papá, con tres niveles de estilo.")
 with st.form("form"):
     col1, col2 = st.columns(2)
     with col1:
-        father = st.text_input("Nombre del papá", value="Francisco").strip()
+        father = st.text_input("Nombre del papá", value="padre").strip()
     with col2:
-        mother = st.text_input("Nombre de la mamá", value="Nicole").strip()
+        mother = st.text_input("Nombre de la mamá", value="madre").strip()
 
     col3, col4 = st.columns(2)
     with col3:

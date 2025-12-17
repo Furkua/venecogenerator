@@ -9,15 +9,15 @@ st.caption("Combina mamá + papá con tres modos: Normal, Veneco, Worst-case.")
 with st.form("form"):
     col1, col2 = st.columns(2)
     with col1:
-        father = st.text_input("Nombre del papá", value="Francisco").strip()
+        father = st.text_input("Nombre del papá", value="Padre").strip()
     with col2:
-        mother = st.text_input("Nombre de la mamá", value="Nicole").strip()
+        mother = st.text_input("Nombre de la mamá", value="Madre").strip()
 
     col3, col4 = st.columns(2)
     with col3:
         gender = st.radio("Género", options=["M", "H"], horizontal=True, help="M = mujer, H = hombre")
     with col4:
-        mode = st.selectbox("Modo", options=["Normal", "Veneco", "Worst-case"])
+        mode = st.selectbox("Modo", options=["Normal", "Veneco", "Cágate la vida"])
 
     k = st.slider("Cantidad de resultados", min_value=1, max_value=5, value=3, step=1)
     seed = st.number_input("Semilla (para repetir resultados)", min_value=0, max_value=10_000_000, value=42, step=1)

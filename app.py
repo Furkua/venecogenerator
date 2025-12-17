@@ -45,4 +45,4 @@ if submitted:
                 st.write(f"{i}. {n}")
 
 st.divider()
-st.caption("Nota: el modo cágate la vida está diseñado para maximizar el desagrado de tu nombre fuera de Venezuela (ojala te deporten).")
+st.caption("Nota: el modo "cágate la vida" está diseñado para maximizar el desagrado de tu nombre fuera de Venezuela (ojala te deporten).")

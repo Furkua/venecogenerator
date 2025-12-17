@@ -4,7 +4,7 @@ from generator import generate_names
 st.set_page_config(page_title="Nombre Veneco Generator", layout="centered")
 
 st.title("Generador de nombres estilo venezolano")
-st.caption("Combina mamá + papá con tres modos: Normal, Veneco, Worst-case.")
+st.caption("Combina mamá + papá con tres modos: Normal, Veneco, Cágate la vida.")
 
 with st.form("form"):
     col1, col2 = st.columns(2)
